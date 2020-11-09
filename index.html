@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Provando git</title>
+    <title>Práctica Bloque 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+
+        function funcion_apellido() {
+        var name = document.getElementById("name").value;    
+        var lastname = document.getElementById("lastname").value;
+          alert ("Bienvenido" + " " + name +  " " + lastname )
+}
+    </script>
 </head>
 <body>
-    <h1>Provando git</h1>
+    <h1>Practica bloque 3</h1>
+    Introduce tu nombre:  <input type="text" id="name">
+    Introduce tu apellido1: <input type="text" id="lastname" onblur="funcion_apellido()">
 </body>
 </html>
